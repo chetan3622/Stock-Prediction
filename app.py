@@ -159,4 +159,5 @@ if generate:
     st.dataframe(forecast_df, use_container_width=True)
 
 st.markdown("<br><br>", unsafe_allow_html=True)
-st.markdown("<center style='color:#94a3b8;'>Developed by Chetan</center>", unsafe_allow_html=True)
+
+st.markdown("<center style='color:#94a3b8;'>Developed by Devloper</center>", unsafe_allow_html=True)
