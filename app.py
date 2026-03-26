@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p, label {
 
 # ---------------- HEADER ----------------
 st.markdown('<div class="title">📈 Reliance Industries Forecast</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">AI Powered SARIMA Stock Prediction Dashboard</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">AI Powered SARIMA Stock Prediction</div>', unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ----------------
 @st.cache_resource
@@ -169,6 +169,6 @@ if generate and model is not None:
 # ---------------- FOOTER ----------------
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown(
-    "<center style='color:#94a3b8;'>Developed by Developer</center>",
+    "<center style='color:#94a3b8;'>Developed by chetan</center>",
     unsafe_allow_html=True
 )
