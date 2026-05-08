@@ -169,6 +169,6 @@ if generate and model is not None:
 # ---------------- FOOTER ----------------
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown(
-    "<center style='color:#94a3b8;'>Developed by developer</center>",
+    "<center style='color:#94a3b8;'>Developed by chetan</center>",
     unsafe_allow_html=True
 )
