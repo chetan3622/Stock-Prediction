@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p, label {
 
 # ---------------- HEADER ----------------
 st.markdown('<div class="title">📈Reliance Industries Forecast</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Stock Prediction</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Stock Price Prediction</div>', unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ----------------
 @st.cache_resource
