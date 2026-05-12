@@ -144,7 +144,7 @@ if generate and model is not None:
         y=forecast_df["Forecast Price"],
         mode="lines",
         name="Forecast Price",
-        line=dict(color="#00f5a0", width=4)
+        line=dict(color="#00f5a0", width=5)
     ))
 
     fig.update_layout(
