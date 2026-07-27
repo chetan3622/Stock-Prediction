@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5, h6, p, label {
 st.markdown('<div class="title">📈 Reliance Industries Forecast</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Stock Price Prediction</div>', unsafe_allow_html=True)
 
-# ---------------
 @st.cache_resource
 def load_model():
     try:
