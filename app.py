@@ -6,7 +6,7 @@ from datetime import datetime
 
 st.set_page_config(page_title="Reliance Forecast", layout="wide")
 
-# ---------------- BACKGROUND STYLE ----------------
+# ---------------- BACKGROUND
 st.markdown("""
 <style>
 
