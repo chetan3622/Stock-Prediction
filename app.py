@@ -84,7 +84,7 @@ model = load_model()
 days = st.slider("Select Forecast Days", 7, 365, 30)
 generate = st.button("Generate Forecast")
 
-# ----------------
+# -----
 if generate and model is not None:
 
     forecast = model.forecast(steps=days)
