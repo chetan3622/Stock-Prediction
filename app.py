@@ -81,7 +81,7 @@ def load_model():
 
 model = load_model()
 
-# ---------------- USER INPUT ----
+# ---------------- USER INP
 days = st.slider("Select Forecast Days", 7, 365, 30)
 generate = st.button("Generate Forecast")
 
