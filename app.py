@@ -100,7 +100,6 @@ if generate and model is not None:
     })
 
     st.markdown("<br>", unsafe_allow_html=True)
-
     # ---------------- METRICS --
     col1, col2, col3 = st.columns(3)
 
