@@ -129,7 +129,7 @@ if generate and model is not None:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # ---------------- CHART ----------------
+    # ---------------- CHART -----------
     fig = go.Figure()
 
     fig.add_trace(go.Scatter(
