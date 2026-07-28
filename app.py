@@ -154,7 +154,7 @@ if generate and model is not None:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # ---------------- DATA TABLE ----------------
+    # ---------------- DATA TABLE ------
     st.subheader("Forecast Data")
     st.dataframe(forecast_df, use_container_width=True)
 
