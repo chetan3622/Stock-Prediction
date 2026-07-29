@@ -158,7 +158,7 @@ if generate and model is not None:
     st.subheader("Forecast Data")
     st.dataframe(forecast_df, use_container_width=True)
 
-# ---------------- FOOTER ----------------
+# ---------------- FOOTER -------------
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown(
     "<center style='color:#94a3b8;'>Developed by Developer</center>",
